@@ -19,9 +19,10 @@ This is the notebook for the [Titanic](https://www.kaggle.com/competitions/titan
 | max_depth | 2  3  4  5  6 |
 
 We then achieve best result with :
+
 ![GridSearch result](gridsearchCV_best.png)
 
 Which ends up with a 0.77033 on public score.
 
 # Further information
-For my [Kaggle profile](https://www.kaggle.com/agrocarp)
+For my Kaggle profile, please visit [Tiến Nguyễn](https://www.kaggle.com/agrocarp)
