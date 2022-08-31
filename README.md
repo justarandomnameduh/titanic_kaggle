@@ -12,10 +12,11 @@ This is the notebook for the [Titanic](https://www.kaggle.com/competitions/titan
 3. Encoding _male_ as 1 and _female_ as 0 for **Sex** feature
 4. Applying [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
 5. Using [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) with a [RandomForestClassifier](scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) using parameters :
+
 | Parameters | Values |
 | --- | --- |
-| n_estimators | 100 - 200 - 500 - 1000 |
-| max_depth | 2 - 3 - 4 - 5 - 6 |
+| n_estimators | 100  200  500  1000 |
+| max_depth | 2  3  4  5  6 |
 
 We then achieve best result with :
 ![GridSearch result](gridsearchCV_best.png)
